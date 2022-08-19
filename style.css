@@ -120,3 +120,47 @@ section[aria-label="hero"] {
   height: 60px;
   margin: auto;
 }
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+  .nav-list {
+    display: none;
+  }
+
+  /*  */
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-heading {
+    font-size: 36px;
+    margin: 20px;
+    width: max-content;
+    align-self: center;
+  }
+
+  .hero-description {
+    font-size: 14px;
+    margin: 20px;
+    width: max-content;
+    padding: 0;
+    inline-size: 400px;
+    text-align: center;
+  }
+
+  .navbar {
+    margin: 20px;
+  }
+  .nav-button {
+    font-size: 16px;
+    padding: 10px;
+    width: 130px;
+  }
+
+  .nav-logo img {
+    width: 90px;
+  }
+}
